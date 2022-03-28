@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;600;800&display=swap");
+@import url(Cuerpo/barra2.css);
+
+
+
+body {
+  min-height: 100vh;
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  background: url(../img/fondo.gif);
+  display: flex;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+img {
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+   }
+.img__svg {
+    cursor: none;
+    max-width: 900px;
+}
+main .contenedor-img {
+  max-width: 60%;
+  margin-right: 40px;
+}
+.contenedor-texto {
+  width: 400px;
+  max-width: 40%;
+}
+.contenedor-texto .titulo- {
+  font-family: "Dosis", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.contenedor-texto .Palabras {
+  font-weight: bold;
+  font-family: "Dosis", sans-serif;
+  color: var(--color);
+  font-style: normal;
+  font-size: 15px;
+}
+
+
+/*FIN  BOTONES */
+
+
+@media (max-width: 568px) {
+  .contenedor {
+    padding: 4px 5px 5px 5px;
+  }
+  .logo {
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    background: url(../img/fondo.gif);
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .img__kali {
+    display: inline-flex;
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+  }
+
+  .menu {
+    display: inline-block;
+    border-radius: 0px 10px 10px 10px;
+  }
+  .menu a {
+    align-items: center;
+    margin: 4px 3px 9px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .contenedor-texto {
+    max-width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  main .contenedor-img {
+    max-width: 100%;
+    min-width: 200px;
+    margin-right: 40px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .titulo- {
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .Palabras {
+    font-weight: bold;
+    font-family: "Dosis", sans-serif;
+    font-style: normal;
+  }
+}
+@media screen and (max-width: 501px) {
+  main {
+    flex-direction: column;
+    text-align: center;
+  }
+  main .contenedor-img {
+    max-width: 60%;
+  }
+}

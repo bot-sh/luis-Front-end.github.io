@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;600;800&display=swap");
+@import url(Cuerpo/barra2.css);
+
+
+
+body {
+  min-height: 100vh;
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  background: url(../img/fondo.gif);
+  display: flex;
+}
+
+
+
+
+
+/*INICIO BOTONES */
+.container{
+  margin: 5px;
+}
+.cards{
+  display: flex;
+  flex-wrap:wrap;
+  gap: .2rem;
+
+}
+.card {
+  margin-bottom: 20px;
+  margin-right: 0;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+  background: rgb(93%, 91%, 96%);
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.07),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.05), 0 12.5px 10px rgba(0, 0, 0, 0.042),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.035), 0 41.8px 33.4px rgba(0, 0, 0, 0.028),
+    0 100px 80px rgba(0, 0, 0, 0.02);
+  cursor: pointer;
+  transition: all 400ms ease;
+  color: rgb(129, 51, 245);
+  width: 250px;
+  height: 230px;
+  overflow: hidden;
+  border-top: var(--color) solid;
+  
+}
+.card:hover {
+  border-top: rgb(100%, 77%, 4%) solid;
+  transform: translateY(-3%);
+  color: rgb(93%, 91%, 96%) ;
+  background:rgb(129, 51, 245);
+}
+.textos{
+  text-align: center;
+}
+.textos p{
+  text-align: left;
+  margin-top: 20px;
+}
+.Boton{
+  margin-top: 50px;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 5px;
+  background: rgb(129, 51, 245);
+  cursor: pointer;
+  background:rgb(93%, 91%, 96%);
+  transition: all 400ms ease;
+  border: 2px  rgb(129, 51, 245) solid;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.07),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.05), 0 12.5px 10px rgba(0, 0, 0, 0.042),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.035), 0 41.8px 33.4px rgba(0, 0, 0, 0.028),
+  0 100px 80px rgba(0, 0, 0, 0.02);
+}
+.Boton:hover {
+  border: 2px  rgb(129, 51, 245) solid;
+  transform: translateY(-9%);
+}
+.Boton h6{
+  color: rgb(129, 51, 245);
+  font-size: 15px;
+}
+/*FIN  BOTONES */
+
+
+
+
+@media (max-width: 568px) {
+  .contenedor {
+    padding: 4px 5px 5px 5px;
+  }
+  .logo {
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    background: url(../img/fondo.gif);
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .img__kali {
+    display: inline-flex;
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+  }
+
+  .menu {
+    display: inline-block;
+    border-radius: 0px 10px 10px 10px;
+  }
+  .menu a {
+    align-items: center;
+    margin: 4px 3px 9px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .container{
+    margin: 5px;
+    display: block;
+    flex-wrap: wrap;
+  }
+
+  .card{
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+}
+
+@media screen and (max-width: 501px) {
+  main {
+    flex-direction: column;
+    text-align: center;
+  }
+}
