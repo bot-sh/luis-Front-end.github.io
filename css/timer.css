@@ -1,1 +1,116 @@
-@import url(Cuerpo/barra2.css)
+@import url(Cuerpo/barra2.css);
+
+body{    
+    background: url(../img/fondo.gif);
+}
+.contenedor{
+    max-width: 700px;
+}
+main{
+    height: 100px;
+}
+.container {
+    width: 0 auto;
+    height: 0;
+    position: absolute;
+    font-size: 18px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .img__kali{
+      display: none;
+  }
+  .containerTime {
+      width: 550px;
+    background: #000;
+    border: 1px solid #000;
+    border-top: 0 ;
+    color: white;
+    border-radius: 0 0 10px 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    font-size: 15px;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.07),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.05), 0 12.5px 10px rgba(0, 0, 0, 0.042),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.035), 0 41.8px 33.4px rgba(0, 0, 0, 0.028),
+    0 100px 80px rgba(0, 0, 0, 0.02);
+  }
+  
+  h3 {
+      text-align: center;
+      background: #000;
+    border: 1px solid #000;
+    border-bottom: 0 ;
+    padding: 2px 5px;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.07),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.05), 0 12.5px 10px rgba(0, 0, 0, 0.042),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.035), 0 41.8px 33.4px rgba(0, 0, 0, 0.028),
+    0 100px 80px rgba(0, 0, 0, 0.02);
+  }
+  
+  p {
+    text-align: center;
+    font-size: 19px;
+  }
+  .imgd{
+      height: 18px;
+      width: 18px;
+  }
+  
+  @media (max-width: 500px){
+    .contenedor {
+        padding: 4px 5px 5px 5px;
+        height: 400px;
+      }
+      .logo {
+        color: white;
+        text-align: center;
+        font-weight: 800;
+        background: url(../img/fondo.gif);
+        border-radius: 10px;
+        margin-bottom: 20px;
+      }
+      .img__kali {
+        display: inline-flex;
+        height: 20px;
+        width: 20px;
+        object-fit: cover;
+      }
+      .container{
+          font-size: 18px;
+          top: 55%;
+          left: 50%;
+      }
+      .containerTime{
+          width: 280px;
+      }
+      .containerTime h2{
+          font-size: 15px;
+      }
+      .logo {
+        color: white;
+        text-align: center;
+        font-weight: 800;
+        background: url(../img/fondo.gif);
+        border-radius: 10px;
+        margin-bottom: 20px;
+      }
+      .menu {
+        display: inline-block;
+        border-radius: 0px 10px 10px 10px;
+      }
+      .menu a {
+        align-items: center;
+        margin: 4px 3px 9px;
+        font-weight: bold;
+        font-size: 16px;
+      }
+
+    
+
+  }
