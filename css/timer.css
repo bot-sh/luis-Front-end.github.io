@@ -62,7 +62,7 @@ main{
       width: 18px;
   }
   
-  @media (max-width: 500px){
+  @media (max-width: 600px){
     .contenedor {
         padding: 4px 5px 5px 5px;
         height: 400px;
