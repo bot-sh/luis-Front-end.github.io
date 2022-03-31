@@ -1,7 +1,7 @@
 @import url(Cuerpo/barra2.css);
 
 body{    
-    background: url(../img/fondo.gif);
+    background-image: url(https://media.giphy.com/media/6EpeAq0aPeD9nqU0XJ/giphy.gif);
 }
 
   .img__kali{
@@ -62,7 +62,7 @@ main{
         color: white;
         text-align: center;
         font-weight: 800;
-        background: url(../img/fondo.gif);
+        background-image: url(https://media.giphy.com/media/6EpeAq0aPeD9nqU0XJ/giphy.gif);
         border-radius: 10px;
         margin-bottom: 20px;
       }
@@ -76,7 +76,7 @@ main{
         color: white;
         text-align: center;
         font-weight: 800;
-        background: url(../img/fondo.gif);
+        background-image: url(https://media.giphy.com/media/6EpeAq0aPeD9nqU0XJ/giphy.gif);
         border-radius: 10px;
         margin-bottom: 20px;
       }
