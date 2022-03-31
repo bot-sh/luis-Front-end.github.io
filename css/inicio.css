@@ -169,14 +169,14 @@ main .contenedor-img {
   .btn-link.activo {
     font-size: 15px;
     color: #fff;
-    background: url(../img/fondo.gif);
+   background-image: url(https://media.giphy.com/media/6EpeAq0aPeD9nqU0XJ/giphy.gif);
   }
 
   .btn-link:hover,
   .btn-link.color {
     font-size: 15px;
     color: #fff;
-    background: url(../img/fondo.gif);
+  background-image: url(https://media.giphy.com/media/6EpeAq0aPeD9nqU0XJ/giphy.gif);
   }
 }
 
