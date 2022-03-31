@@ -8,7 +8,7 @@ body {
   font-family: "Dosis", sans-serif;
   font-size: 20px;
   font-weight: 400;
-  background: url(../img/fondo.gif);
+  background-image: url(https://media.giphy.com/media/6EpeAq0aPeD9nqU0XJ/giphy.gif);
   display: flex;
   align-items: center;
 }
